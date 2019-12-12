@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':bibek', ':aaryan', ':ashraya', ':bipul', ':gokul'
 rootProject.name='Android Development'
