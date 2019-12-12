@@ -3,7 +3,18 @@
     package="com.ktm.bipul">
 
     <application>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".BipulMainActivity"/>
+        <activity-alias
+            android:name=".BipulMainActivity"
+            android:icon="@mipmap/ic_launcher_bipul"
+            android:label="AD Bipul"
+            android:targetActivity=".BipulMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
     </application>
 
 </manifest>

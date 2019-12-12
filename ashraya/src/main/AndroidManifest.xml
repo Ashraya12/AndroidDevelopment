@@ -3,7 +3,18 @@
     package="com.ktm.ashraya">
 
     <application>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".AshrayaMainActivity" />
+        <activity-alias
+            android:name=".AshrayaMainActivity"
+            android:icon="@mipmap/ic_launcher_ashraya"
+            android:label="AD Ashraya"
+            android:targetActivity=".AshrayaMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
     </application>
 
 </manifest>

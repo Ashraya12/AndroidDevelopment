@@ -3,7 +3,18 @@
     package="com.ktm.bibek">
 
     <application>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".BibekMainActivity" />
+        <activity-alias
+            android:name=".BibekMainActivity"
+            android:icon="@mipmap/ic_launcher_bibek"
+            android:label="AD Bibek"
+            android:targetActivity=".BibekMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
     </application>
 
 </manifest>

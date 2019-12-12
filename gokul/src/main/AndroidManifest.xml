@@ -3,7 +3,18 @@
     package="com.ktm.gokul">
 
     <application>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".GokulMainActivity" />
+        <activity-alias
+            android:name=".GokulMainActivity"
+            android:icon="@mipmap/ic_launcher_gokul"
+            android:label="AD Gokul"
+            android:targetActivity=".GokulMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
     </application>
 
 </manifest>
