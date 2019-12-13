@@ -11,7 +11,7 @@ import com.ktm.androiddevelopment.utils.toastShort
 import com.ktm.ashraya.AshrayaMainActivity
 import com.ktm.bibek.BibekMainActivity
 import com.ktm.bipul.BipulMainActivity
-import com.ktm.gokul.GokulMainActivity
+import com.ktm.sujan.SujanMainActivity
 import kotlinx.android.synthetic.main.content_main_activity.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.button2 -> startActivity(Intent(this, AshrayaMainActivity::class.java))
             R.id.button3 -> startActivity(Intent(this, BibekMainActivity::class.java))
             R.id.button4 -> startActivity(Intent(this, BipulMainActivity::class.java))
-            R.id.button5 -> startActivity(Intent(this, GokulMainActivity::class.java))
+            R.id.button5 -> startActivity(Intent(this, SujanMainActivity::class.java))
         }
     }
 }

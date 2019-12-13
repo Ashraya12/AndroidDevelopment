@@ -2,9 +2,9 @@
 
     <string name="please_click_back_again_to_exit">Please click BACK again to exit</string>
 
-    <string name="button_label_aaryan">aaryan</string>
-    <string name="button_label_ashraya">ashraya</string>
-    <string name="button_label_bibek">bibek</string>
-    <string name="button_label_bipul">bipul</string>
-    <string name="button_label_gokul">gokul</string>
+    <string name="button_label_aaryan">Aaryan</string>
+    <string name="button_label_ashraya">Ashraya</string>
+    <string name="button_label_bibek">Bibek</string>
+    <string name="button_label_bipul">Bipul</string>
+    <string name="button_label_sujan">Sujan</string>
 </resources>

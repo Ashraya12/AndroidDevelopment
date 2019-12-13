@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ktm.sujan">
+
+    <application>
+        <activity android:name="com.ktm.sujan.SujanMainActivity" />
+        <activity-alias
+            android:name=".SujanMainActivity"
+            android:icon="@mipmap/ic_launcher_sujan"
+            android:label="AD Sujan"
+            android:targetActivity="com.ktm.sujan.SujanMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+    </application>
+
+</manifest>
