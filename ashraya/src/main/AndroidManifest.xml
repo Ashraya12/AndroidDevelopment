@@ -3,7 +3,9 @@
     package="com.ktm.ashraya">
 
     <application>
+        <activity android:name=".RoomEx"></activity>
         <activity android:name=".AshrayaMainActivity" />
+
         <activity-alias
             android:name=".AshrayaMainActivity"
             android:icon="@mipmap/ic_launcher_ashraya"
